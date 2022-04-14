@@ -1,9 +1,12 @@
 name: blank
 on:
-  workflow_call:
+  push:
 jobs:
-  build:
-    uses:
-      randomorg123/test1/.github/workflows/blank1.yml@main
-#hbhjgdsfkmlndfnjkgfdh
+  blank:
+    runs-on: ubuntu-latest
+    steps:
+      - name: MyCommands
+        run: |
+          echo Hello
+          echo World
 
