@@ -4,6 +4,6 @@ on:
 jobs:
   build:
     uses:
-      my-org/actions/.github/workflows/node.js.yml@1
+      randomorg123/test1/.github/workflows/blank1.yml@main
 
 
