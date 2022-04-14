@@ -1,6 +1,6 @@
 name: blank
 on:
-  push:
+  workflow_call:
 jobs:
   blank:
     runs-on: ubuntu-latest
