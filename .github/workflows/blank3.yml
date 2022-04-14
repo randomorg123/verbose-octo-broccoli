@@ -5,4 +5,4 @@ jobs:
   blank:
     runs-on: ubuntu-latest
     steps:
-      - uses: .github/workflows/blank2.yml
+      - uses: .github/workflows/blank2.yml@main
