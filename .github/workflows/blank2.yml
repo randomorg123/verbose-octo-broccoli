@@ -3,6 +3,14 @@ on:
   workflow_call:
 jobs:
   blank:
+  uses:
+    randomorg123/test1/.github/workflows/blank1.yml@main
     runs-on: ubuntu-latest
     steps:
-      - uses: randomorg123/test1/.github/workflows/blank1.yml@main
+      - name: MyCommands
+        run: |
+          echo Hello
+          echo World
+
+
+
