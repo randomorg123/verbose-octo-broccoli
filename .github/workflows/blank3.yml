@@ -3,6 +3,6 @@ on:
   push:
 jobs:
   blank:
-   uses: randomorg123/verbose-octo-broccoli/.github/workflows/blank2.yml@main
+   uses: randomorg123/test1/.github/workflows/blank1.yml@main
 
 #fdgmkndfjkgjkd
