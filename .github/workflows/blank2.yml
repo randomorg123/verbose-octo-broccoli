@@ -2,15 +2,8 @@ name: blank
 on:
   workflow_call:
 jobs:
-  blank:
-  uses:
-    randomorg123/test1/.github/workflows/blank1.yml@main
-    runs-on: ubuntu-latest
-    steps:
-      - name: MyCommands
-        run: |
-          echo Hello
-          echo World
-
+  build:
+    uses:
+      my-org/actions/.github/workflows/node.js.yml@1
 
 
